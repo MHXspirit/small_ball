@@ -8,15 +8,34 @@
 
 int main()
 {
-	int width = 800;
-	int height = 600;
-	int x = 400;
-	int y = 300;
-	int radius = 100;
+	int width = 800; // 画面宽度
+	int height = 600; // 画面高度
+	int x = width / 2; // 小球 x 坐标
+	int y = height / 2; // 小球 y 坐标
+	int radius = 20; // 小球半径
+	int vx = 3; // 小球 x 方向速度
+	int vy = 4; // 小球 y 方向速度
+	initgraph(width, height); // 新建画面
+	
+	while (1)
+	{
+		cleardevice(); // 清屏
+		fillcircle(x, y, radius); // 画小球
 
-	initgraph(width, height);
-	fillcircle(x, y, radius);
-	_getch();
+		// 小球碰到上下左右边界，速度反向
+		if (y >= height - radius || y <= radius)
+		{
+			vy = -vy;
+		}
+		if (x >= width - radius || x <= radius)
+		{
+			vx = -vx;
+		}
 
+		y = y + vy; // 更新小球 x 坐标
+		x = x + vx; // 更新小球 y 坐标
+		Sleep(30); // 暂停30ms
+	}
+	
 	return 0;
 }
