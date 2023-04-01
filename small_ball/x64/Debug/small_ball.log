@@ -1,2 +1,12 @@
 ﻿  main.cpp
+E:\Code\learnC\small_ball\small_ball\main.cpp(17,18): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\Code\learnC\small_ball\small_ball\main.cpp(18,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\Code\learnC\small_ball\small_ball\main.cpp(20,16): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+E:\Code\learnC\small_ball\small_ball\main.cpp(26,45): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Code\learnC\small_ball\small_ball\main.cpp(26,32): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Code\learnC\small_ball\small_ball\main.cpp(26,17): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Code\learnC\small_ball\small_ball\main.cpp(27,41): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Code\learnC\small_ball\small_ball\main.cpp(27,29): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Code\learnC\small_ball\small_ball\main.cpp(27,17): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Code\learnC\small_ball\small_ball\main.cpp(33,17): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
   small_ball.vcxproj -> E:\Code\learnC\small_ball\x64\Debug\small_ball.exe
