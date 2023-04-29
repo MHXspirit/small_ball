@@ -2,7 +2,7 @@
 
 int main()
 {
-	chapter_4_10();
+	chapter_4_14();
 	_getch();
 	return 0;
 }
